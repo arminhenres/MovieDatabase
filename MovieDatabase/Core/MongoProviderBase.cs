@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public abstract class MongoProviderBase<TElement> : IProvider<TElement>
+    public abstract class MongoProviderBase<TElement> : IProvider<TElement> where TElement : IRepElement
     {
         protected string _ip;
 
@@ -39,7 +39,7 @@ namespace Core
             _isInitialized = true;
         }
 
-        //public abstract IEnumerable<TElement> GetElements();
+        public abstract IEnumerable<TElement> GetElements();
 
         public abstract void SaveElement(TElement element);
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public class Film
+    public class Film : IRepElement
     {
         public ObjectId _id
         {
@@ -15,11 +15,17 @@ namespace Core
             set;
         }
 
+        public Guid ID
+        {
+            get;
+            set;
+        }
         public Film()
         {
             Genres = new List<Genre>();
             Schauspieler = new List<string>();
             Sprachen = new List<string>();
+            ID = Guid.NewGuid();
         }
         public string Name
         {
@@ -28,6 +34,12 @@ namespace Core
         }
 
         public List<Genre> Genres
+        {
+            get;
+            set;
+        }
+
+        public string Pfad
         {
             get;
             set;

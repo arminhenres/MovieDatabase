@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRepElement.cs" />
     <Compile Include="MongoProvider.cs" />
     <Compile Include="GenreEnum.cs" />
     <Compile Include="Film.cs" />

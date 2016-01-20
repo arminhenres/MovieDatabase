@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public interface IProvider<TElement>
+    public interface IProvider<TElement>  where TElement : IRepElement
     {
-        //IEnumerable<TElement> GetElements();
+        IEnumerable<TElement> GetElements();
 
         void SaveElement(TElement element);
 
