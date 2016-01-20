@@ -102,13 +102,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\Documents\Developing\HelloWorld\Ressources\Ressources.csproj">
-      <Project>{e7a89298-464a-4f82-bcad-609e76f13b22}</Project>
-      <Name>Ressources</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{8279d8fc-9a4b-4f64-84d6-0d5c4d67b447}</Project>
       <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ressources\Ressources.csproj">
+      <Project>{e7a89298-464a-4f82-bcad-609e76f13b22}</Project>
+      <Name>Ressources</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

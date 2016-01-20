@@ -29,7 +29,6 @@ namespace GUI
         private void UploadNewInfo()
         {
             var x = filmprovider.AlreadyAvailable(new Film());
-            x.ToString();
         }
     }
 }
