@@ -22,12 +22,13 @@ namespace Core
 
         public override void SaveElement(TElement element)
         {
-            _collection.Insert(element);
-        }
+            _collection.Insert<TElement>(element);            
+        }           
 
         public override void DeleteElement(TElement element)
         {
-            throw new NotImplementedException();
+            var query = new QueryDocument("ID", element.ID);
+            _collection.Remove(query);
         }
 
         public bool AlreadyAvailable(TElement element)

@@ -39,6 +39,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.1.2.3.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
     </Reference>
@@ -59,7 +61,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Resources\ImageButton.cs" />
     <Compile Include="ViewModel.cs" />
+    <Page Include="Resources\AlternativeStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Images.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -110,6 +121,33 @@
       <Project>{e7a89298-464a-4f82-bcad-609e76f13b22}</Project>
       <Name>Ressources</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Thriller.png" />
+    <Resource Include="Media\War.png" />
+    <Resource Include="Media\Western.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Action.png" />
+    <Resource Include="Media\Adventure.png" />
+    <Resource Include="Media\Animation.png" />
+    <Resource Include="Media\Biography.png" />
+    <Resource Include="Media\Comedy.png" />
+    <Resource Include="Media\Crime.png" />
+    <Resource Include="Media\Documentary.png" />
+    <Resource Include="Media\Drama.png" />
+    <Resource Include="Media\Family.png" />
+    <Resource Include="Media\Fantasy.png" />
+    <Resource Include="Media\History.png" />
+    <Resource Include="Media\Horror.png" />
+    <Resource Include="Media\Music.png" />
+    <Resource Include="Media\Musical.png" />
+    <Resource Include="Media\Mystery.png" />
+    <Resource Include="Media\Oscar.png" />
+    <Resource Include="Media\Others.png" />
+    <Resource Include="Media\Romance.png" />
+    <Resource Include="Media\Sci-fi.png" />
+    <Resource Include="Media\Sport.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

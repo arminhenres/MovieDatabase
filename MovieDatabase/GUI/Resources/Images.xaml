@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapImage x:Key="Action" UriSource="Media/Action.png"/>
+    <BitmapImage x:Key="Adventure" UriSource="Media/Adventure.png"/>
+    <BitmapImage x:Key="Animation" UriSource="Media/Animation.png"/>
+    <BitmapImage x:Key="Biography" UriSource="Media/Biography.png"/>
+    <BitmapImage x:Key="Comedy" UriSource="Media/Comedy.png"/>
+    <BitmapImage x:Key="Crime" UriSource="Media/Crime.png"/>
+    <BitmapImage x:Key="Documentary" UriSource="Media/Documentary.png"/>
+    <BitmapImage x:Key="Drama" UriSource="Media/Family.png"/>
+    <BitmapImage x:Key="Family" UriSource="Media/Action.png"/>
+    <BitmapImage x:Key="Fantasy" UriSource="Media/Fantasy.png"/>
+    <BitmapImage x:Key="History" UriSource="Media/History.png"/>
+    <BitmapImage x:Key="Horror" UriSource="Media/Horror.png"/>
+    <BitmapImage x:Key="Music" UriSource="Media/Music.png"/>
+    <BitmapImage x:Key="Mystery" UriSource="Media/Mystery.png"/>
+    <BitmapImage x:Key="Romance" UriSource="Media/Romance.png"/>
+    <BitmapImage x:Key="Sci-Fi" UriSource="Media/Sci-Fi.png"/>
+    <BitmapImage x:Key="Sport" UriSource="Media/Sport.png"/>
+    <BitmapImage x:Key="Thriller" UriSource="Media/Thriller.png"/>
+    <BitmapImage x:Key="War" UriSource="Media/War.png"/>
+    <BitmapImage x:Key="Western" UriSource="Media/Western.png"/>
+</ResourceDictionary>
